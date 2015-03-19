@@ -1,4 +1,5 @@
 DEPENDENCIES
+  apt
   create
     path: .
     metadata: true

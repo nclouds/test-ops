@@ -26,6 +26,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     }
 
     chef.run_list = [
+      'recipe[apt::default]',
       'recipe[es::default]'
 ]
   end
